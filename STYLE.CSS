@@ -11,11 +11,13 @@ body{
     
 }
 #form{
+    border-radius: 50%;
     background-color: lightgreen;
     width: 650px;
     height: 350px;
 }
 #input{
+    border-radius: 50%;
     background-color: purple;
     width: 180px;
     height: 55px;
@@ -28,6 +30,7 @@ body{
     font-size: 16px;
 }
 #number{
+    border-radius: 50%;
     background-color: purple;
     width: 180px;
     height: 55px;
@@ -40,6 +43,7 @@ body{
     font-size: 16px;
 }
 #select{
+    border-radius: 50%;
     width: 120px;
     height: 38px;
     background-color:coral;
@@ -49,17 +53,13 @@ body{
     background-color: cornsilk;
 }
 #button{
-    width: 120px;
-    height: 40px;
-    margin-left: 265px;
+    border-radius: 48%;
+    width: 220px;
+    height: 75px;
+    margin-left: 225px;
     border: none;
     background-color:gold;
-    color: #FFFFFF;
-    border-radius: 5px;
-    margin-top: -10px;
-}
-.title{
-    color: darksalmon;
-    font-size: 54px;
-    text-align: center;
+    color: orangered;
+    margin-top: 60px;
+    font-size: 40px;
 }
