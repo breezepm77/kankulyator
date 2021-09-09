@@ -1,5 +1,5 @@
 body{
-    background-color: brown;
+    background-color:gold;
     padding: 0;
     margin: 0;
 }
@@ -11,36 +11,38 @@ body{
     
 }
 #form{
-    border-radius: 50%;
+    border-radius: 80%;
     background-color: lightgreen;
     width: 650px;
     height: 350px;
 }
 #input{
     border-radius: 50%;
-    background-color: purple;
+    background-color:cadetblue;
     width: 180px;
     height: 55px;
     margin-left: 55px;
     text-align: center;
     margin-right: 20px;
+    border: none;
 }
 #input::placeholder{
-    color: #fff;
-    font-size: 16px;
+    color: cyan;
+    font-size: 20px;
 }
 #number{
     border-radius: 50%;
-    background-color: purple;
+    background-color: cadetblue;
     width: 180px;
     height: 55px;
     margin-top: 100px;
     text-align: center;
     margin-left: 20px;
+    border: none;
 }
 #number::placeholder{
-    color: #fff;
-    font-size: 16px;
+    color: cyan;
+    font-size: 20px;
 }
 #select{
     border-radius: 50%;
@@ -49,17 +51,14 @@ body{
     background-color:coral;
     text-align: center;
 }
-#select:focus{
-    background-color: cornsilk;
-}
 #button{
     border-radius: 48%;
     width: 220px;
     height: 75px;
     margin-left: 225px;
     border: none;
-    background-color:gold;
-    color: orangered;
+    background-color:lightsalmon;
+    color:steelblue;
     margin-top: 60px;
     font-size: 40px;
 }
