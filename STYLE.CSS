@@ -1,0 +1,66 @@
+body{
+    background-color: brown;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+#form{
+    background-color: lightgreen;
+    width: 650px;
+    height: 350px;
+}
+#input{
+    background-color: purple;
+    width: 180px;
+    height: 55px;
+    margin-left: 55px;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+#input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+#number{
+    background-color: purple;
+    width: 180px;
+    height: 55px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+#number::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+#select{
+    width: 120px;
+    height: 38px;
+    background-color:coral;
+    text-align: center;
+}
+#select:focus{
+    background-color: cornsilk;
+}
+#button{
+    width: 120px;
+    height: 40px;
+    margin-left: 265px;
+    border: none;
+    background-color:gold;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.title{
+    color: darksalmon;
+    font-size: 54px;
+    text-align: center;
+}
